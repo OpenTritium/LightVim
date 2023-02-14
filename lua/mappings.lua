@@ -8,5 +8,14 @@ keybind.cmp = {
     abort = "<C-e>",
     comfirm = "<Tab>"
 }
-
+keybind.leap = {
+    repeat_search = "<enter>",
+    next_phase_one_target = "<enter>",
+    next_target = {"k", ";"},
+    prev_target = {"j", ","},
+    next_group = "k",
+    prev_group = "j",
+    multi_accept = "<enter>",
+    multi_revert = "<backspace>"
+}
 return keybind
